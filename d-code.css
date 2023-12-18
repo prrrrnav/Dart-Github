@@ -1,0 +1,182 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+  }
+  /* body{
+    background-color:black;
+    color:black;
+  } */
+  .logo{
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+.container{
+  width:100%;
+  height:100vh;
+
+}
+.navbar{
+  width: 85%;
+  margin: 10px auto;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+.navbar ul li{
+  list-style:none;
+  display:inline-block;
+  margin: 0 20px;
+}
+.navbar ul li a{
+  text-decoration:none;
+  color: rgb(225 225 225);
+  font-size: 1rem;
+}
+.headImage{
+  width: 85%;
+  height: 360px;
+  margin: 10px auto;
+
+}
+.headImage img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+.release{
+  width: 85%;
+  margin: 25px auto;
+  display: flex;
+  align-items:center;
+  text-align: center;
+  
+}
+.releasehead h3{
+  font-size: 1.2rem;
+  color: white;
+  display: inline-block;
+  font-weight: 400;
+}
+.lines{
+  height: 4px;
+  width: 200px;
+  background-color:red;
+  align-items: center;
+  display: inline-block;
+  margin-left: 130px;
+  border-radius: 3px;
+  
+}
+/* .cardImg{
+  height: 160px;
+  width: 170px;
+  border-radius: none;
+} */
+.releaserow{
+  width: 85%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  /* justify-content: space-between; */
+}
+.cardtitle{
+  font-size: .9rem;
+  color: rgb(117, 115, 115);
+  font-weight: 100;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.boxImg{
+  height: 160px;
+  width: 170px;
+}
+.boxImg img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+.releasecard{
+  margin-left: 50px;
+}
+#releaseInitialCard{
+  margin-left: 0px;
+}
+#line2{
+  background-color: greenyellow;
+}
+.playlistrow{
+  width: 85%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+}
+.playlistcard{
+  margin-left: 50px;
+}
+#playlistInitialCard{
+  margin-left: 0px;
+}
+.playlistImg{
+  height: 160px;
+  width: 170px;
+  border-radius: none;
+}
+.playlistTitle{
+  font-size: .9rem;
+  color: rgb(117, 115, 115);
+  font-weight: 100;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.playlist{
+  width: 85%;
+  margin: 25px auto;
+  display: flex;
+  align-items:center;
+  text-align: center;
+}
+.playlisthead h3{ 
+  font-size: 1.2rem;
+  color: white;
+  display: inline-block;
+  font-weight: 400;
+}
+.boxImg img:hover{
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+
+}
+/* .anchors ul li a{
+  text-decoration:none;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+
+} */
+.navbar ul li a:hover{
+  color: rgb(84, 84, 84);
+  font-size: 1rem;
+  text-decoration: underline;
+
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+  }
+}
