@@ -1,92 +1,123 @@
-html {
-    height: 100%;
-    width: 100%;
-    background-color:black;
-    font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
-  }
-  /* body{
-    background-color:black;
-    color:black;
-  } */
-  .logo{
-    color: white;
-    font-size: 1.5rem;
-    cursor: pointer;
-  }
-.container{
-  width:100%;
-  height:100vh;
+body {
+  background-color: black;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  width: auto;
+}
+
+.container {
+  width: auto;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navbar {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 61px;
 
 }
-.navbar{
-  width: 85%;
-  margin: 10px auto;
+
+.logo {
+  align-items: center;
   display: flex;
-  align-items:center;
-  justify-content: space-between;
 }
-.navbar ul li{
-  list-style:none;
-  display:inline-block;
-  margin: 0 20px;
+
+.logo a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+
+  margin-left: 20px;
+
+
 }
-.navbar ul li a{
-  text-decoration:none;
-  color: rgb(225 225 225);
+
+.anchors {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: auto;
+  width: auto;
+
+}
+
+.anchors li a {
+  text-decoration: none;
+  color: white;
+  margin: 0px 20px;
   font-size: 1rem;
+
+
 }
-.headImage{
+.anchors li a:hover{
+  color: rgb(84, 84, 84);
+font-size: 1rem;
+text-decoration: underline;
+}
+
+.headImage {
   width: 85%;
   height: 360px;
   margin: 10px auto;
 
 }
-.headImage img{
+
+.headImage img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   margin: 10px auto;
   border-radius: 5px;
 }
-.release{
+
+.release {
   width: 85%;
   margin: 25px auto;
   display: flex;
-  align-items:center;
+  align-items: center;
   text-align: center;
-  
+
 }
-.releasehead h3{
+
+.releasehead h3 {
   font-size: 1.2rem;
   color: white;
   display: inline-block;
   font-weight: 400;
 }
-.lines{
+
+.lines {
   height: 4px;
   width: 200px;
-  background-color:red;
+  background-color: red;
   align-items: center;
   display: inline-block;
   margin-left: 130px;
   border-radius: 3px;
-  
+
 }
+
 /* .cardImg{
   height: 160px;
   width: 170px;
   border-radius: none;
 } */
-.releaserow{
+.releaserow {
   width: 85%;
   margin: 20px auto;
   display: flex;
   flex-direction: row;
-  align-items:center;
+  align-items: center;
   /* justify-content: space-between; */
 }
-.cardtitle{
+
+.cardtitle {
   font-size: .9rem;
   color: rgb(117, 115, 115);
   font-weight: 100;
@@ -94,45 +125,54 @@ html {
   display: flex;
   justify-content: center;
 }
-.boxImg{
+
+.boxImg {
   height: 160px;
   width: 170px;
 }
-.boxImg img{
+
+.boxImg img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   border-radius: 0px;
 }
 
-.releasecard{
+.releasecard {
   margin-left: 50px;
 }
-#releaseInitialCard{
+
+#releaseInitialCard {
   margin-left: 0px;
 }
-#line2{
+
+#line2 {
   background-color: greenyellow;
 }
-.playlistrow{
+
+.playlistrow {
   width: 85%;
   margin: 20px auto;
   display: flex;
   flex-direction: row;
-  align-items:center;
+  align-items: center;
 }
-.playlistcard{
+
+.playlistcard {
   margin-left: 50px;
 }
-#playlistInitialCard{
+
+#playlistInitialCard {
   margin-left: 0px;
 }
-.playlistImg{
+
+.playlistImg {
   height: 160px;
   width: 170px;
   border-radius: none;
 }
-.playlistTitle{
+
+.playlistTitle {
   font-size: .9rem;
   color: rgb(117, 115, 115);
   font-weight: 100;
@@ -140,31 +180,35 @@ html {
   display: flex;
   justify-content: center;
 }
-.playlist{
+
+.playlist {
   width: 85%;
   margin: 25px auto;
   display: flex;
-  align-items:center;
+  align-items: center;
   text-align: center;
 }
-.playlisthead h3{ 
+
+.playlisthead h3 {
   font-size: 1.2rem;
   color: white;
   display: inline-block;
   font-weight: 400;
 }
-.boxImg img:hover{
+
+.boxImg img:hover {
   transform: scale(1.1);
   transition: all 0.5s ease;
 
 }
+
 /* .anchors ul li a{
   text-decoration:none;
   color: rgb(255, 255, 255);
   font-size: 1rem;
 
 } */
-.navbar ul li a:hover{
+.navbar ul li a:hover {
   color: rgb(84, 84, 84);
   font-size: 1rem;
   text-decoration: underline;
@@ -175,7 +219,7 @@ html {
   html {
     height: 100%;
     width: 100%;
-    background-color:black;
+    background-color: black;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
   }

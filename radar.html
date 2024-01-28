@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="Favicon/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,500&display=swap"
+    rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="radar.css">
+
+  <title>Radar</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <a href="index.html">Dart</a>
+      </div>
+      <ul class="anchors">
+        <li><a href="artist.html">Artists</a></li>
+        <li><a href="radar.html">Radar</a></li>
+        <li><a href="#">Profile</a></li>
+      </ul>
+    </div>
+    <div class="Radar">
+      <div class="imageR"><img src="./Images/radar.jpg" alt=""></div>
+      <div class="text">
+        <h1>Radar Top 10</h1>
+        <p>Here are the top 10 songs on the radar this week</p>
+      </div>
+    </div>
+    <div class="song-cue">
+      <div class="song-box">
+        <div class="song-img" onmouseover="hoverbox()" ><img src="./Images/blackEl.jpg" alt="">
+          <div class="song-title">Choo lo</div>
+          <div class="song-artist">The local train</div>
+        </div>
+        <div class="song-img" onmouseover="hoverbox()" ><img src="./Images/blackEl.jpg" alt="">
+          <div class="song-title">Choo lo</div>
+          <div class="song-artist">The local train</div>
+        </div>
+        <div class="song-img" onmouseover="hoverbox()" ><img src="./Images/blackEl.jpg" alt="">
+          <div class="song-title">Choo lo</div>
+          <div class="song-artist">The local train</div>
+        </div>
+        <div class="song-img" onmouseover="hoverbox()" ><img src="./Images/blackEl.jpg" alt="">
+          <div class="song-title">Choo lo</div>
+          <div class="song-artist">The local train</div>
+        </div>
+        <div class="song-img" onmouseover="hoverbox()" ><img src="./Images/blackEl.jpg" alt="">
+          <div class="song-title">Choo lo</div>
+          <div class="song-artist">The local train</div>
+        </div>
+
+      </div>
+      <div class="artist-info">
+        <div class="artist-content" onmouseover="hover()" onmouseout="unhover()">
+          <div class="artist-image" ><img id="imgartist" src="./Images/pebble.jpg" alt="">
+          <div class="content">
+          <div class="artist-name">The local train</div>
+          <div class="artist-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae qui dolore autem numquam temporibus hic voluptatibus fuga vitae atque consequuntur.</div>
+        </div>
+        </div>
+        
+        </div>
+      </div>
+    </div>
+
+<script src="radar.js"></script>
+</body>
+
+</html>

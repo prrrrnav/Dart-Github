@@ -1,0 +1,159 @@
+body{
+    background-color: black;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    width: auto;
+}
+.container{
+    height: fit-content;
+    width: auto;
+
+}
+
+.navbar {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 61px;
+
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+
+    margin-left: 20px;
+
+
+}
+
+.anchors {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: auto;
+    width: auto;
+
+}
+
+.anchors li a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 20px;
+    font-size: 1rem;
+
+}
+.anchors li a:hover{
+    color: rgb(84, 84, 84);
+  font-size: 1rem;
+  text-decoration: underline;
+}
+.first-block{
+    display: flex;
+    flex-direction: row;
+    margin: 40px 30px;
+    padding: 10px 40px;
+}
+#artist-Image{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    object-position: top;
+}
+.artist-info{
+    color: white;
+    padding: 0px 20px;
+    width: 600px;
+    margin-left: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+.second-block{
+    color: white;
+    width: auto;
+    display: flex;
+    padding: 10px 10px;
+    margin: 30px 60px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.song-img{
+    height: 50px;
+    width: 50px;
+    
+}
+.song{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px 30px;
+    width: auto;
+
+}
+
+/* .song:hover{
+    background-color:  #e9ecee;
+    cursor: pointer;
+    border-radius: 10px;
+} */
+.song-info{
+    margin-left: 30px;
+    
+}
+.artist-songs{
+    width: 50%;
+    background-color: #181818;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.song-info p{
+    margin: 0px;
+    padding: 0px;
+    color: gray;
+    font-size: 14px;
+}
+.song-info h3{
+    margin: 0px;
+    padding: 0px;
+}
+.artist-card{
+    position: relative;
+    height: 400px;
+    width: 40%;
+   
+}
+
+#art-img{
+    
+    height:100%;
+    width: 100%;
+    border-radius: 10px;
+
+    opacity: .5;
+    object-fit: cover;
+object-position: top;
+   
+}
+.artist-card:hover #art-img{
+    opacity: .2;
+    cursor: pointer;
+}
+.artistname{
+    position: absolute;
+    top: 37%;
+    left: 30%;
+
+}
